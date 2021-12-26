@@ -9,6 +9,10 @@
 //Variables
 
 $purple: rgb(108, 35, 245);
+$grey: lighten(
+  $color: #000000,
+  $amount: 40%,
+);
 
 //Font Weight
 $fw-normal: 100;
@@ -35,11 +39,11 @@ body {
   font-size: $fs-sml;
   margin: 1rem 0;
   line-height: 1.5;
-  color: lighten($color: #000000, $amount: 50%);
+  color: $grey;
 }
 
 button {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 
   span {
     font-weight: $fw-bold;
@@ -72,6 +76,7 @@ p.link {
 //Main Styles
 
 .container {
+  padding-bottom: 2rem;
   width: 90%;
   margin: 0 auto;
 
@@ -105,7 +110,7 @@ p.link {
   }
 
   .social-icons {
-    margin: 1rem 0;
+    margin: 2rem 0;
     img {
       width: 100%;
     }
@@ -120,6 +125,27 @@ p.link {
   footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem 0 2rem;
+
+    #right {
+      margin-left: auto;
+    }
+
+    .small-heading {
+      padding-bottom: 0.5rem;
+    }
+
+    .links {
+      li {
+        list-style: none;
+        padding: 0.3rem 0;
+
+        a {
+          color: $grey;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }

@@ -22,11 +22,11 @@ body {
   font-size: 1rem;
   margin: 1rem 0;
   line-height: 1.5;
-  color: gray;
+  color: #666666;
 }
 
 button {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 button span {
@@ -57,6 +57,7 @@ p.link {
 }
 
 .container {
+  padding-bottom: 2rem;
   width: 90%;
   margin: 0 auto;
 }
@@ -96,7 +97,7 @@ p.link {
 }
 
 .container .social-icons {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .container .social-icons img {
@@ -116,8 +117,25 @@ p.link {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 0 2rem;
+}
+
+.container footer #right {
+  margin-left: auto;
+}
+
+.container footer .small-heading {
+  padding-bottom: 0.5rem;
+}
+
+.container footer .links li {
+  list-style: none;
+  padding: 0.3rem 0;
+}
+
+.container footer .links li a {
+  color: #666666;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
