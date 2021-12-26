@@ -16,7 +16,7 @@ $fw-bold: 700;
 
 //Font-Size
 $fs-sml: 1rem;
-$fs-lg: 2.5rem;
+$fs-lg: 2.3rem;
 
 body {
   font-family: "DM Sans", sans-serif;
@@ -28,6 +28,7 @@ body {
   font-size: $fs-lg;
   line-height: 1.1;
   font-weight: $fw-bold;
+  margin: 1rem 0;
 }
 
 .info {
@@ -52,6 +53,20 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 0.9rem;
+}
+
+section {
+  padding-bottom: 7rem;
+}
+
+p.link {
+  color: $purple;
+  font-weight: $fw-bold;
+}
+
+.small-heading {
+  font-weight: $fw-bold;
+  font-size: 1.2rem;
 }
 
 //Main Styles
@@ -87,5 +102,24 @@ button {
         font-weight: $fw-bold;
       }
     }
+  }
+
+  .social-icons {
+    margin: 1rem 0;
+    img {
+      width: 100%;
+    }
+  }
+  .phone-image {
+    margin: 4rem 0;
+    img {
+      width: 100%;
+    }
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
   }
 }

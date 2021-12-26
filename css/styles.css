@@ -12,9 +12,10 @@ body {
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.1;
   font-weight: 700;
+  margin: 1rem 0;
 }
 
 .info {
@@ -39,6 +40,20 @@ button span {
   border: none;
   border-radius: 5px;
   font-size: 0.9rem;
+}
+
+section {
+  padding-bottom: 7rem;
+}
+
+p.link {
+  color: #6c23f5;
+  font-weight: 700;
+}
+
+.small-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -78,5 +93,31 @@ button span {
 .container .intro .join-us span {
   color: #6c23f5;
   font-weight: 700;
+}
+
+.container .social-icons {
+  margin: 1rem 0;
+}
+
+.container .social-icons img {
+  width: 100%;
+}
+
+.container .phone-image {
+  margin: 4rem 0;
+}
+
+.container .phone-image img {
+  width: 100%;
+}
+
+.container footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=styles.css.map */
