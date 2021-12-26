@@ -1,2 +1,82 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.info {
+  font-size: 1rem;
+  margin: 1rem 0;
+  line-height: 1.5;
+  color: gray;
+}
+
+button {
+  margin: 1rem 0;
+}
+
+button span {
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #6c23f5;
+  color: white;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container header {
+  padding: 2.5rem 0;
+}
+
+.container header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .intro .feed {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.container .intro .feed img {
+  width: 100%;
+}
+
+.container .intro .join-us img {
+  width: 50%;
+}
+
+.container .intro .join-us span {
+  color: #6c23f5;
+  font-weight: 700;
+}
 /*# sourceMappingURL=styles.css.map */
